@@ -1,0 +1,35 @@
+.playbox{
+	margin:0 auto;
+}
+.smallBox{
+	position:absolute;
+	top:420px;
+	left:460px;
+	width:140px; 
+	margin:0 auto; 
+	height:10px;  
+	bottom:15px; 
+	z-index:10;
+}
+.smallBox li{ 
+	width:9px; 
+	height:9px; 
+	margin:0 5px; 
+	border-radius:10px; 
+	border:1px solid #ffffff;
+	float:left; 
+	overflow:hidden;
+	display:inline;
+}
+
+.thisBox{
+	background-color:#ffffff; 
+}
+.largeBox{
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+.largeBox li{
+	list-style-type:none;
+}
